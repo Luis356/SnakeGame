@@ -1,4 +1,4 @@
-import pygame
+import pygame  # IMPORTAMOS O PYGAME
 import random
 from pygame.locals import *
 
@@ -38,7 +38,7 @@ score = 0
 
 game_over = False
 while not game_over:
-    Velocidade.tick(20)
+    Velocidade.tick(15)
     for event in pygame.event.get():
 
         if event.type == QUIT:
