@@ -16,8 +16,6 @@ fonteFimJogo = pygame.font.SysFont("arial", 40)
 #   GERANDO POSIÇÕES ALEATORIAS PARA A MAÇÃ
 #   380 PARA EIXO X E 380 PARA EIXO Y POIS COMO A MAÇA E A Serpente VÃO OCUPAR 20 QUADRADINHOS,
 #   E A MATRIZ COMEÇA A SER CONTADA DO LADO SUPERIOR ESQUERDO, ELAS PODERIAM SUMIR AO SEREM GERADAS NO LIMITE DA TELA
-
-
 def posicaoAleatoria():
     x = (random.randint(0, 380))
     y = (random.randint(0, 380))
@@ -69,7 +67,7 @@ pontos = 0
 while True:
 
     pontuacao = fontePontos.render(f'Pontuação: {pontos}', True, (255, 255, 0))
-    fps.tick(15)
+    fps.tick(7)
     tela.fill((0, 0, 0))
 
     for event in pygame.event.get():
