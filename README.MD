@@ -1,10 +1,10 @@
 # Snake Game 🐍
 
-Um simples jogo da serpente (Snake Game) desenvolvido em Python usando a biblioteca pygame. O objetivo é controlar a serpente, coletar a comida e crescer o máximo possível sem colidir com as bordas ou com o próprio corpo.
+Um simples jogo da serpente (Snake Game) desenvolvido em Python usando a biblioteca `pygame`. O objetivo é controlar a serpente, coletar a comida e crescer o máximo possível sem colidir com as bordas ou com o próprio corpo.
 
 ## 🎮 Demonstração
 
-![Snake Game Demo](https://github.com/luis356/SnakeGame/Demi/DemoSnakeGame.gif)
+![Snake Game Demo](Demo/DemoSnakeGame.gif)
 
 ## 📋 Funcionalidades
 
