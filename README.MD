@@ -4,7 +4,7 @@ Um simples jogo da serpente (Snake Game) desenvolvido em Python usando a bibliot
 
 ## 🎮 Demonstração
 
-![Snake Game Demo](https://github.com/luis356/SnakeGame/Demi/DemoSnakeGame.gif)
+![Snake Game Demo](Demo/DemoSnakeGame.gif)
 
 ## 📋 Funcionalidades
 
